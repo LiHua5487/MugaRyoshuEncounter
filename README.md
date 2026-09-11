@@ -4,9 +4,9 @@
 
 ## 安装
 
-（本包使用 Lethe 1.2.4、ModularSkillScripts 5.1.7 的程序集构建）
+（本包使用 Lethe 1.2.4、ModularSkillScripts 5.1.7 的程序集构建，代码由codex完成，有存在史山的可能）
 
-1. 从本仓库的 **Releases** 下载 ZIP
+1. 从本仓库的 [Releases](https://github.com/LiHua5487/MugaRyoshuEncounter/releases) 下载 ZIP
 2. 将其中的 `MugaRyoshuEncounter` 文件夹放到 `./LetheLauncher-Distribution-7/BepInEx/plugins/Lethe/mods`
 3. 将其中的 `MugaRyoshuEncounter.dll` 放到 `./LetheLauncher-Distribution-7/BepInEx/plugins/`
 
