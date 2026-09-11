@@ -1,0 +1,274 @@
+{
+  "880962101": {
+    "id": "880962101",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "留痕",
+        "desc": "<color=#ff6000><mark=#ff000040><b><u>可无视速度值指定本技能</u></b></mark></color>\n不会触发目标的守备技能\n[WinDuel] 使自身恢复12点理智值，使本技能造成的伤害-80%\n[DefeatDuel] 使自身失去5点理智值，并使目标的[MugaRyoshuBalancedCutThread]层数-3，且本技能不会施加[MugaRyoshuBalancedCutThread]（包括被动效果）",
+        "flavor": "阿赖耶必须生活在与我不同的地方。",
+        "coinlist": [
+          {
+            "coindescs": []
+          },
+          {
+            "coindescs": []
+          }
+        ]
+      }
+    ]
+  },
+  "880962102": {
+    "id": "880962102",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "涂抹",
+        "desc": "[WhenUse] 自身每带有10层[MugaRyoshuBalancedSelflessness]，使本技能的最终威力+1(最多+3)\n[WhenUse] 目标每带有6级[Laceration]强度，使本技能的最终威力+1(最多+3)\n[DefeatDuel] 使本技能基础威力-4，造成的伤害-50%，且造成的伤害不会使目标陷入混乱",
+        "flavor": "“逃出蜘蛛巢。”\n\n“在阿赖耶变得和猴儿一样之前。”",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[UnBrokenCoinOnSucceedAttack] 施加2级[Laceration]强度"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[UnBrokenCoinOnSucceedAttack] 施加2级[Laceration]强度"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "880962103": {
+    "id": "880962103",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "泼洒",
+        "desc": "与本技能拼点的技能若为<color=#ff6000><mark=#ff000040><b><u>基础攻击技能</u></b></mark></color>，其最先的硬币有50%概率被删除\n[WhenUse] 自身每带有10层[MugaRyoshuBalancedSelflessness]，使本技能的最终威力+1(最多+5)\n[WhenUse] 目标每带有6级[Laceration]强度，使本技能的最终威力+1(最多+4)\n[DefeatDuel] 使本技能基础威力-4，造成的伤害-50%，且造成的伤害不会使目标陷入混乱",
+        "flavor": "“我无法在将父辈全部斩杀的同时，确保阿赖耶的安全。”",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[UnBrokenCoinOnSucceedAttack] 施加1层[Laceration]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[UnBrokenCoinOnSucceedAttack] 施加1层[Laceration]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[UnBrokenCoinOnSucceedAttack] 施加2层[Laceration]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "880962104": {
+    "id": "880962104",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "抹除",
+        "desc": "<color=#ff6000><mark=#ff000040><b><u>可无视速度值指定本技能</u></b></mark></color>\n与本技能拼点的技能若为<color=#ff6000><mark=#ff000040><b><u>基础攻击技能</u></b></mark></color>，其最先的硬币<color=#ff6000><mark=#ff000040><b><u>必定</u></b></mark></color>被删除\n[WhenUse] 与带有[MugaRyoshuBalancedCutThread]的目标拼点时，拼点威力+8\n本技能造成的伤害-50%",
+        "flavor": "“把阿赖耶藏起来。藏在父辈们频繁出入的，时间保险箱堆积如山的房间中。”\n\n“让阿赖耶在时间保险箱中避难。那里面是安全的。”",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加2层[MugaRyoshuBalancedCutThread]与1层[Laceration]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加2层[MugaRyoshuBalancedCutThread]与1层[Laceration]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加2层[MugaRyoshuBalancedCutThread]与1层[Laceration]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "880962105": {
+    "id": "880962105",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "天杀",
+        "desc": "<color=#ff6000><mark=#ff000040><b><u>可无视速度值指定本技能</u></b></mark></color>\n与本技能拼点的技能若为<color=#ff6000><mark=#ff000040><b><u>基础攻击技能</u></b></mark></color>，其最先的硬币有50%概率被删除\n[WhenUse] 自身每带有10层[MugaRyoshuBalancedSelflessness]，使本技能的最终威力+1(最多+8)\n[DefeatDuel] 使本技能基础威力-8，造成的伤害-50%，且造成的伤害不会使目标陷入混乱\n<color=#ff6000><mark=#ff000040><b><u>[EndSkill] 结束回合</u></b></mark></color>",
+        "flavor": "“然后用我的刀在那保险箱上留下刻痕。”\n\n“等我再次回来时，那道刻痕会再次显现出来，即便是跟其他保险箱混在一起也能凭它来辨认。”\n\n“想要藏匿一棵树，就该把它藏在森林里。”",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加2层[Laceration]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加2层[Laceration]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加2级[Laceration]强度"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加2级[Laceration]强度"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 施加5层[MugaRyoshuBalancedCutThread]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "880962106": {
+    "id": "880962106",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "将我抹去，也将你抹去",
+        "desc": "无法改变目标\n与本技能拼点的技能若为<color=#ff6000><mark=#ff000040><b><u>基础攻击技能</u></b></mark></color>，其最先的硬币<color=#ff6000><mark=#ff000040><b><u>必定</u></b></mark></color>被删除\n[WhenUse] 若自身的理智值不低于-10，则使本技能基础威力-15\n[StartBattle] 使自身获得5层[Vulnerable]\n[DefeatDuel] 获得以下效果\n- 使本技能基础威力-10，造成的伤害-50%，且造成的伤害不会使目标陷入混乱\n- 使自身恢复15点理智值，失去10层[MugaRyoshuBalancedSelflessness]\n- 使目标失去12层[MugaRyoshuBalancedCutThread]\n<color=#ff6000><mark=#ff000040><b><u>[EndSkill] 结束回合</u></b></mark></color>",
+        "flavor": "“无论花费了多长的时间，我都希望对阿赖耶来说只是一刹那。”",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              }
+            ]
+          },
+          {
+            "coindescs": [
+              {
+                "desc": "[CantBreak]"
+              },
+              {
+                "desc": "[OnSucceedAttack] 消耗目标所有[MugaRyoshuBalancedCutThread],每消耗1层，追加目标体力上限4%的固定伤害"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "880962107": {
+    "id": "880962107",
+    "levelList": [
+      {
+        "level": 1,
+        "name": "余白",
+        "desc": "[WhenUse] 使本技能的基础威力+(自身的[MugaRyoshuBalancedSelflessness]层数/10 + 目标的[MugaRyoshuBalancedCutThread]层数/3)（最多+5）",
+        "flavor": "“阿赖耶，等我......”",
+        "coinlist": [
+          {
+            "coindescs": [
+              {
+                "desc": "[OnSucceedEvade] 使自身恢复5点理智值（每回合最多1次）"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

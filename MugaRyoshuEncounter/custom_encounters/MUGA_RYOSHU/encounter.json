@@ -1,0 +1,51 @@
+{
+  "id": 8809610,
+  "stageLevel": 75,
+  "stageType": "Abnormality",
+  "isBatonPassOn": true,
+  "participantInfo": {
+    "min": 1,
+    "max": 7
+  },
+  "waveList": [
+    {
+      "battleMapInfo": {
+        "mapName": "Cp9_HouseSpidersRoooftopBurn",
+        "mapSize": 33.33
+      },
+      "unitList": [
+        {
+          "unitID": 88096101,
+          "unitCount": 1,
+          "unitLevel": 75
+        }
+      ],
+      "bgmList": [
+        "Battle_Cp9_Boss_9"
+      ],
+      "enemyPositionID": 178,
+      "allyPositionID": 1
+    }
+  ],
+  "staminaCost": 0,
+  "recommendedLevel": 75,
+  "turnLimit": 99,
+  "questlist": [
+    {
+      "args": [
+        "10"
+      ],
+      "localizeId": 1
+    }
+  ],
+  "rewardList": [],
+  "story": {
+    "enter": [],
+    "others": [],
+    "exit": []
+  },
+  "stageScriptList": [],
+  "abstainSupporterCharacterIds": [],
+  "includeBoss": 1,
+  "effectiveResistCondition": 1.2
+}

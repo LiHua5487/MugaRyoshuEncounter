@@ -1,0 +1,763 @@
+{
+  "list": [
+    {
+      "id": 880962101,
+      "skillTier": 1,
+      "skillType": "SKILL",
+      "textID": 880962101,
+      "skillData": [
+        {
+          "attributeType": "AZURE",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 2,
+          "defaultValue": 10,
+          "range": 8,
+          "importanceLevel": 2,
+          "skillMotion": "S1",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "CanBeChangedTargetIgnoreSpeed"
+            },
+            {
+              "scriptName": "IgnoreDefenseSkill"
+            },
+            {
+              "scriptName": "Modular/TIMING:WinDuel/LUA:MugaRyoshuBalanced/LUAMAIN:muga_trace_win"
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 5,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": []
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 5,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": []
+            }
+          ],
+          "iconID": 880962101
+        }
+      ]
+    },
+    {
+      "id": 880962102,
+      "skillTier": 1,
+      "skillType": "SKILL",
+      "textID": 880962102,
+      "skillData": [
+        {
+          "attributeType": "SHAMROCK",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 2,
+          "defaultValue": 8,
+          "range": 8,
+          "skillMotion": "S2",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit3",
+              "buffData": {
+                "buffKeyword": "MugaRyoshuBalancedSelflessness",
+                "stack": 10,
+                "turn": 0,
+                "buffOwner": "AbnormalitySelf",
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit3",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "stack": 6,
+                "turn": 0,
+                "buffOwner": "Target",
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+              "value": -0.5
+            },
+            {
+              "scriptName": "Modular/TIMING:DefeatDuel/base(-4)"
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 4,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 4,
+              "grade": 2,
+              "color": "GREY",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "iconID": 40001502
+        }
+      ]
+    },
+    {
+      "id": 880962103,
+      "skillTier": 2,
+      "skillType": "SKILL",
+      "textID": 880962103,
+      "skillData": [
+        {
+          "attributeType": "SCARLET",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 4,
+          "defaultValue": 12,
+          "range": 8,
+          "skillMotion": "S3",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit5",
+              "buffData": {
+                "buffKeyword": "MugaRyoshuBalancedSelflessness",
+                "stack": 10,
+                "turn": 0,
+                "buffOwner": "AbnormalitySelf",
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit4",
+              "buffData": {
+                "buffKeyword": "Laceration",
+                "stack": 6,
+                "turn": 0,
+                "buffOwner": "Target",
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "ChangeFirstValidCoinStatusOnWinParryingByRandom_VANISHED",
+              "value": 0.5
+            },
+            {
+              "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+              "value": -0.5
+            },
+            {
+              "scriptName": "Modular/TIMING:DefeatDuel/base(-4)"
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 5,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 5,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 5,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttackIfUsableInDuel",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "iconID": 40001503
+        }
+      ]
+    },
+    {
+      "id": 880962104,
+      "skillTier": 2,
+      "skillType": "SKILL",
+      "textID": 880962104,
+      "skillData": [
+        {
+          "attributeType": "CRIMSON",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 4,
+          "defaultValue": 7,
+          "range": 8,
+          "importanceLevel": 3,
+          "skillMotion": "S4",
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "CanBeChangedTargetIgnoreSpeed"
+            },
+            {
+              "scriptName": "ChangeFirstValidCoinStatusOnWinParryingByRandom_VANISHED",
+              "value": 1
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/RESETWHENUSE/dmgmult(-50)"
+            },
+            {
+              "scriptName": "ParryingPowerResultAdderSelfViaBuffCheck",
+              "buffData": {
+                "buffKeyword": "MugaRyoshuBalancedCutThread",
+                "target": "",
+                "buffOwner": "Target",
+                "stack": 1,
+                "turn": 0,
+                "activeRound": 0,
+                "value": 8
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 3,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:MugaRyoshuBalanced/LUAMAIN:muga_give_cutthread(2)"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 3,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:MugaRyoshuBalanced/LUAMAIN:muga_give_cutthread(2)"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 3,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:MugaRyoshuBalanced/LUAMAIN:muga_give_cutthread(2)"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 1,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "iconID": 880962104
+        }
+      ]
+    },
+    {
+      "id": 880962105,
+      "skillTier": 3,
+      "skillType": "SKILL",
+      "textID": 880962105,
+      "skillData": [
+        {
+          "attributeType": "INDIGO",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": true,
+          "skillLevelCorrection": 6,
+          "defaultValue": 20,
+          "range": 8,
+          "importanceLevel": 3,
+          "skillMotion": "S5",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "CanBeChangedTargetIgnoreSpeed"
+            },
+            {
+              "scriptName": "SkillPowerResultAdderViaBuffCheckDevideByStackWithLimit8",
+              "buffData": {
+                "buffKeyword": "MugaRyoshuBalancedSelflessness",
+                "stack": 10,
+                "turn": 0,
+                "buffOwner": "AbnormalitySelf",
+                "value": 1
+              }
+            },
+            {
+              "scriptName": "ChangeFirstValidCoinStatusOnWinParryingByRandom_VANISHED",
+              "value": 0.5
+            },
+            {
+              "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+              "value": -0.5
+            },
+            {
+              "scriptName": "Modular/TIMING:DefeatDuel/base(-8)"
+            },
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:MugaRyoshuBalanced/LUAMAIN:muga_special_used"
+            },
+            {
+              "scriptName": "SkipThisRoundOnEndAttack"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 0,
+                    "turn": 2,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "Laceration",
+                    "target": "Target",
+                    "buffOwner": "",
+                    "stack": 2,
+                    "turn": 0,
+                    "activeRound": 0
+                  }
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "Modular/TIMING:OnSucceedAttack/LUA:MugaRyoshuBalanced/LUAMAIN:muga_give_cutthread(5)"
+                }
+              ]
+            }
+          ],
+          "iconID": 40001505
+        }
+      ]
+    },
+    {
+      "id": 880962106,
+      "skillTier": 3,
+      "skillType": "SKILL",
+      "textID": 880962106,
+      "skillData": [
+        {
+          "attributeType": "CRIMSON",
+          "atkType": "SLASH",
+          "defType": "ATTACK",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "canTeamKill": false,
+          "canDuel": true,
+          "canChangeTarget": false,
+          "skillLevelCorrection": 6,
+          "defaultValue": 26,
+          "range": 8,
+          "importanceLevel": 3,
+          "skillMotion": "S6",
+          "viewType": "ENCOUNTER",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "ChangeFirstValidCoinStatusOnWinParryingByRandom_VANISHED",
+              "value": 1
+            },
+            {
+              "scriptName": "AttackDmgMultiplierAndTargetNotBreakOnLoseDuel",
+              "value": -0.5
+            },
+            {
+              "scriptName": "Modular/TIMING:DefeatDuel/base(-10)"
+            },
+            {
+              "scriptName": "GiveBuffOnBattleStart",
+              "buffData": {
+                "buffKeyword": "Vulnerable",
+                "target": "Self",
+                "stack": 5,
+                "turn": 0,
+                "activeRound": 0
+              }
+            },
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/LUA:MugaRyoshuBalanced/LUAMAIN:muga_special_used"
+            },
+            {
+              "scriptName": "Modular/TIMING:WhenUse/base(0)/VALUE_0:getsp(SelfCore)/IF(OR,VALUE_0>-10,VALUE_0=-10):base(-15)"
+            },
+            {
+              "scriptName": "SkipThisRoundOnEndAttack"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                }
+              ]
+            },
+            {
+              "operatorType": "SUB",
+              "scale": 6,
+              "grade": 2,
+              "color": "PURPLE",
+              "abilityScriptList": [
+                {
+                  "scriptName": "SuperCoin"
+                },
+                {
+                  "scriptName": "GiveAdditionalDmgViaEachTargetBuffStackAndMaxHpRatioOnSuccessAttack",
+                  "buffData": {
+                    "buffKeyword": "MugaRyoshuBalancedCutThread",
+                    "target": "Target",
+                    "value": 0.04,
+                    "limit": 0
+                  }
+                },
+                {
+                  "scriptName": "ForceToDestroyActivatedBuffOnSucceedAttack",
+                  "buffData": {
+                    "buffKeyword": "MugaRyoshuBalancedCutThread",
+                    "target": "Target",
+                    "activeRound": 0
+                  }
+                }
+              ]
+            }
+          ],
+          "iconID": 40001506
+        }
+      ]
+    },
+    {
+      "id": 880962107,
+      "skillTier": 1,
+      "skillType": "SKILL",
+      "textID": 880962107,
+      "skillData": [
+        {
+          "gaksungLevel": 1,
+          "attributeType": "INDIGO",
+          "atkType": "NONE",
+          "defType": "EVADE",
+          "targetNum": 1,
+          "skillTargetType": "RANDOM",
+          "mpUsage": 0,
+          "canTeamKill": false,
+          "canDuel": false,
+          "canChangeTarget": true,
+          "skillLevelCorrection": -2,
+          "defaultValue": 10,
+          "skillMotion": "S1",
+          "range": 999,
+          "viewType": "BATTLE",
+          "parryingCloseType": "NEAR",
+          "abilityScriptList": [
+            {
+              "scriptName": "EmptyBody"
+            },
+            {
+              "scriptName": "Modular/TIMING:OnSucceedEvade/LUA:MugaRyoshuBalanced/LUAMAIN:muga_blank_evade"
+            }
+          ],
+          "coinList": [
+            {
+              "operatorType": "SUB",
+              "scale": 8
+            }
+          ],
+          "iconID": 1040104
+        }
+      ]
+    }
+  ]
+}

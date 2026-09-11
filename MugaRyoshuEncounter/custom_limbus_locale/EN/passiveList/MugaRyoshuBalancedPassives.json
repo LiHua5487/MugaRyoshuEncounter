@@ -1,0 +1,20 @@
+{
+  "880962001": {
+    "id": "880962001",
+    "name": "无我梦中",
+    "desc": "回合开始时，使自身获得层数相当于当前回合数的[MugaRyoshuBalancedSelflessness]\n攻击技能的硬币命中时，使自身获得1层[MugaRyoshuBalancedSelflessness]（每回合最多5层）\n\n[MugaRyoshuBalancedSelflessness]层数低于80层时，造成的伤害-(80-自身的[MugaRyoshuBalancedSelflessness]层数)%\n\n受到来自[Burst]、[Combustion]、[Laceration]、[Sinking]、[Vibration]的伤害-50%\n- 体力降低至900点以下时，上述效果的强度最多累计到30级，层数最多累计到10层",
+    "flavor": "“必须让一切看起来像是我已经把阿赖耶转移到蜘蛛巢之外避难了。”\n\n“为了应付寻找阿赖耶的父辈们，我必须佯装对他们拔刀相向。”"
+  },
+  "880962002": {
+    "id": "880962002",
+    "name": "阿鼻叫唤",
+    "desc": "关卡开始时，使自身获得[MugaRyoshuBalancedHeavenlyStar]，并将自身理智值设为-44点\n自身的理智值不会低于-44点\n\n<color=#ff6000><mark=#ff000040><b><u>受到包括沉沦在内的理智伤害时，改为受到(理智伤害量/2)点的体力伤害</u></b></mark></color>\n\n体力首次降低至900点时，本回合内体力不会因伤害降至900点以下，下回合开始时改变行动模式，且\n- 理智上限变为0点\n- 若自身的[MugaRyoshuBalancedSelflessness]层数低于50，则获得至50层\n- 清空自身的负面状态",
+    "flavor": "“父辈们的力量与执念之深，我最清楚。”\n\n“要骗过他们，就一定要拼上性命营造假象。”\n\n“计划好如何与每一位父辈交战、如何与他们刀刃交击。”\n\n“即便是在快要失去意识的时刻，仍在脑中一次次反复描绘着。”"
+  },
+  "880962003": {
+    "id": "880962003",
+    "name": "支离灭裂",
+    "desc": "攻击技能的最后一枚硬币命中时，对目标施加1层[MugaRyoshuBalancedCutThread]\n- 回合开始时，自身每带有25层[MugaRyoshuBalancedSelflessness]，令自身施加的[MugaRyoshuBalancedCutThread]额外+1层（最多+4）\n\n受到攻击时，使自身受到的伤害-(自身的[MugaRyoshuBalancedSelflessness]层数/2+目标的[MugaRyoshuBalancedCutThread]层数)%（最多-50%）\n\n与同一技能拼点次数不低于10次时，后续每次拼点，拼点威力+1\n\n<color=#ff6000><mark=#ff000040><b><u>若有敌方单位的[MugaRyoshuBalancedCutThread]达到15层，则使用“将我抹去，也将你抹去”，指定这些单位中体力上限最高的1名单位</u></b></mark></color>\n\n<color=#ff6000><mark=#ff000040><b><u>良秀将斩断与宗教层、社会层金枝的连接</u></b></mark></color>",
+    "flavor": "“虽然我的能力不足以杀死父辈们，但至少拖住他们，令他们暂时失去行动能力还是可以做到的。”\n\n“然后。”\n\n“去外面。”\n\n“变强之后再回到这里来。”\n\n“无论是与比我更强的人成为同伴还是增强自身的战力，都必须准备好能够清除那些父辈的切实的手段。”"
+  }
+}

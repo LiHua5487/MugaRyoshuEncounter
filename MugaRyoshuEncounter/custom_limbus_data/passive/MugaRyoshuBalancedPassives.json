@@ -1,0 +1,48 @@
+{
+  "list": [
+    {
+      "id": 880962001,
+      "importanceLevel": 3,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:EncounterStart/LUA:MugaRyoshuBalanced/LUAMAIN:muga_start",
+        "Modular/TIMING:RoundStart/LUA:MugaRyoshuBalanced/LUAMAIN:muga_round_start",
+        "Modular/TIMING:BeforeAttack/LUA:MugaRyoshuBalanced/LUAMAIN:muga_outgoing_damage",
+        "Modular/TIMING:OnSucceedAttack/LUA:MugaRyoshuBalanced/LUAMAIN:muga_on_hit",
+        "Modular/TIMING:AfterSlots/LUA:MugaRyoshuBalanced/LUAMAIN:muga_guardian_refresh",
+        "Modular/TIMING:AfterChangeHP/LUA:MugaRyoshuBalanced/LUAMAIN:muga_status_caps",
+        "Modular/TIMING:OnGainBuff/LUA:MugaRyoshuBalanced/LUAMAIN:muga_status_caps",
+        "Modular/TIMING:RoundStart/LUA:MugaRyoshuBalanced/LUAMAIN:muga_status_caps",
+        "Modular/TIMING:BufMaxStackAdder/VALUE_0:getdata(SelfCore,88096232)/CONTINUEIF(VALUE_0=1)/VALUE_0:bufmaxstackadderiskeyword(Combustion,exact)/VALUE_1:bufmaxstackadderiskeyword(Laceration,exact)/VALUE_2:bufmaxstackadderiskeyword(Vibration,exact)/VALUE_3:bufmaxstackadderiskeyword(Burst,exact)/VALUE_4:bufmaxstackadderiskeyword(Sinking,exact)/CONTINUEIF(OR,VALUE_0=1,VALUE_1=1,VALUE_2=1,VALUE_3=1,VALUE_4=1)/VALUE_9:-69",
+        "Modular/TIMING:BufMaxTurnAdder/VALUE_0:getdata(SelfCore,88096232)/CONTINUEIF(VALUE_0=1)/VALUE_0:bufmaxturnadderiskeyword(Combustion,exact)/VALUE_1:bufmaxturnadderiskeyword(Laceration,exact)/VALUE_2:bufmaxturnadderiskeyword(Vibration,exact)/VALUE_3:bufmaxturnadderiskeyword(Burst,exact)/VALUE_4:bufmaxturnadderiskeyword(Sinking,exact)/CONTINUEIF(OR,VALUE_0=1,VALUE_1=1,VALUE_2=1,VALUE_3=1,VALUE_4=1)/VALUE_9:-89"
+      ]
+    },
+    {
+      "id": 880962002,
+      "importanceLevel": 3,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:EncounterStart/LUA:MugaRyoshuBalanced/LUAMAIN:muga_abyss_start",
+        "Modular/TIMING:BeforeChangeSanity/LUA:MugaRyoshuBalanced/LUAMAIN:muga_convert_sanity_damage",
+        "Modular/TIMING:Immortal/LUA:MugaRyoshuBalanced/LUAMAIN:muga_immortal",
+        "Modular/TIMING:AfterChangeSanity/LUA:MugaRyoshuBalanced/LUAMAIN:muga_limit_sanity"
+      ]
+    },
+    {
+      "id": 880962003,
+      "importanceLevel": 3,
+      "attributeStockCondition": [],
+      "requireIDList": [
+        "Modular/TIMING:EncounterStart/passivereveal(Self,880962003)",
+        "Modular/TIMING:OnSucceedAttack/LUA:MugaRyoshuBalanced/LUAMAIN:muga_last_coin_hit",
+        "Modular/TIMING:BeforeWhenHit/LUA:MugaRyoshuBalanced/LUAMAIN:muga_prepare_damage_reduction",
+        "Modular/TIMING:ChangeTakeDamage/LUA:MugaRyoshuBalanced/LUAMAIN:muga_reduce_attack_damage",
+        "Modular/TIMING:StartDuel/LUA:MugaRyoshuBalanced/LUAMAIN:muga_clash_start",
+        "Modular/TIMING:DuelClash/LUA:MugaRyoshuBalanced/LUAMAIN:muga_repeated_clash",
+        "Modular/TIMING:AfterChangeHP/LUA:MugaRyoshuBalanced/LUAMAIN:muga_status_caps",
+        "Modular/TIMING:OnGainBuff/LUA:MugaRyoshuBalanced/LUAMAIN:muga_status_caps",
+        "Modular/TIMING:RoundStart/LUA:MugaRyoshuBalanced/LUAMAIN:muga_status_caps"
+      ]
+    }
+  ]
+}

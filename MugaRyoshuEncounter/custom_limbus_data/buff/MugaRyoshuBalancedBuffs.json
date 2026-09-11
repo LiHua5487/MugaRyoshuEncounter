@@ -1,0 +1,127 @@
+{
+  "list": [
+    {
+      "id": "MugaRyoshuBalancedSelflessness",
+      "iconId": "CutbondRyoshu",
+      "typoIconId": "CutbondRyoshu",
+      "subIdList": [
+        "CutbondRyoshu"
+      ],
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "destroyableOnDie": false,
+      "destroyableOnRetreat": false,
+      "maxStack": 100,
+      "list": [
+        {
+          "ability": "GiveBuffOnRSPerStack",
+          "value": 10,
+          "buffData": {
+            "buffKeyword": "AttackUp",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "GiveBuffOnRSPerStack",
+          "value": 10,
+          "buffData": {
+            "buffKeyword": "DefenseUp",
+            "target": "Self",
+            "stack": 1,
+            "turn": 0,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "ActivateBuffEffectSkin"
+        }
+      ]
+    },
+    {
+      "id": "MugaRyoshuBalancedHeavenlyStar",
+      "iconId": "HeavenlyKillerStar",
+      "typoIconId": "HeavenlyKillerStar",
+      "subIdList": [
+        "HeavenlyKillerStar"
+      ],
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Neutral",
+      "canBeDespelled": false,
+      "destroyableOnDie": false,
+      "destroyableOnRetreat": false,
+      "maxStack": 1,
+      "list": [
+        {
+          "ability": "AttackLevelAdder",
+          "value": 6
+        },
+        {
+          "ability": "HeavenlyKillerStarOnRS"
+        }
+      ]
+    },
+    {
+      "id": "MugaRyoshuBalancedCutThread",
+      "iconId": "CutoffRyoshu",
+      "typoIconId": "CutoffRyoshu",
+      "subIdList": [
+        "CutoffRyoshu"
+      ],
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Negative",
+      "canBeDespelled": false,
+      "destroyableOnDie": false,
+      "destroyableOnRetreat": true,
+      "maxStack": 15,
+      "list": [
+        {
+          "ability": "GiveBuffOnRS",
+          "buffData": {
+            "buffKeyword": "Laceration",
+            "target": "Self",
+            "stack": 1,
+            "turn": 1,
+            "activeRound": 0
+          }
+        },
+        {
+          "ability": "ActivateBuffEffect"
+        },
+        {
+          "ability": "TakeSlashDamageOnRSPerStack",
+          "value": 3
+        },
+        {
+          "ability": "TakeSlashDamageOnTakeAtkDmgPerStack",
+          "value": 5
+        },
+        {
+          "ability": "CutoffRyoshuOnDieEffect"
+        }
+      ]
+    },
+    {
+      "id": "MugaRyoshuGuardianResolve",
+      "iconId": "Gebura_Reinforcement",
+      "typoIconId": "Gebura_Reinforcement",
+      "buffClass": "NonvolatileBuff",
+      "buffType": "Positive",
+      "canBeDespelled": false,
+      "destroyableOnDie": false,
+      "destroyableOnRetreat": false,
+      "maxStack": 1,
+      "list": [
+        {
+          "ability": "Modular/TIMING:RoundStart/mugaguardian(round)"
+        },
+        {
+          "ability": "Modular/TIMING:OnSucceedAttack/mugaguardian(hit)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "list": [
+    {
+      "id": 880962011,
+      "nameID": 880962011,
+      "viewid": 40001501,
+      "slotWeightConditionList": [
+        "Default1"
+      ],
+      "hp": {
+        "defaultStat": 403,
+        "incrementByLevel": 20.2
+      },
+      "defCorrection": -4,
+      "minSpeedList": [
+        3
+      ],
+      "maxSpeedList": [
+        6
+      ],
+      "isDestroyable": "false",
+      "skillCancelable": "false",
+      "canVanish": "false",
+      "canChangeSpriteOnDestoryed": "false",
+      "spreadMpEffectToAbnormality": "true",
+      "partType": "BODY",
+      "breakSection": {
+        "sectionList": []
+      },
+      "resistInfo": {
+        "atkResistList": [
+          { "type": "SLASH", "value": 0.5 },
+          { "type": "PENETRATE", "value": 0.5 },
+          { "type": "HIT", "value": 0.5 }
+        ],
+        "attributeResistList": [
+          { "type": "CRIMSON", "value": 0.5 },
+          { "type": "SCARLET", "value": 0.5 },
+          { "type": "AMBER", "value": 0.5 },
+          { "type": "SHAMROCK", "value": 0.5 },
+          { "type": "AZURE", "value": 0.5 },
+          { "type": "INDIGO", "value": 0.5 },
+          { "type": "VIOLET", "value": 0.5 },
+          { "type": "WHITE", "value": 2 },
+          { "type": "BLACK", "value": 2 }
+        ]
+      },
+      "passiveSet": {
+        "passiveIdList": [880962003]
+      }
+    }
+  ]
+}

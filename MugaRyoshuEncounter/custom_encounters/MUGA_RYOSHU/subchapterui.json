@@ -1,0 +1,32 @@
+{
+  "chapterId": 2,
+  "subchapterId": 8809610,
+  "nodeId": 8809610,
+  "storyIdInTheaterData": 0,
+  "isUnlockByUnlockCode": false,
+  "unlockCode": 101,
+  "relatedData": {
+    "chapterId": 2,
+    "subchapterId": 0,
+    "nodeId": 0
+  },
+  "uiConfig": {
+    "customChapterText": "遭遇战·无我良秀",
+    "chapterTagIconType": "BATTLE",
+    "region": "p",
+    "mapAreaId": 101,
+    "timeLine": "PLAYGROUND",
+    "illustId": "story-id_E041X",
+    "chapterTitleText": "",
+    "descriptionText": "于 9-49 的燃烧屋顶迎战无我良秀",
+    "iconId": "",
+    "bgmId": ""
+  },
+  "type": "STAGE_NODE",
+  "isHidden": false,
+  "abstainSupporterCharacterIds": [],
+  "requireClearNodeList": [],
+  "requireItemList": [],
+  "rewardList": [],
+  "eventScriptList": []
+}

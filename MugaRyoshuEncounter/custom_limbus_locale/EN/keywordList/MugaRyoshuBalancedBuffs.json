@@ -1,0 +1,38 @@
+{
+  "MugaRyoshuBalancedSelflessness": {
+    "a": 0,
+    "id": "MugaRyoshuBalancedSelflessness",
+    "name": "无我",
+    "desc": "- 回合开始时，本效果层数每有10层，使自身获得1层攻击等级提升与1层防御等级提升\n- 最大值：100",
+    "summary": "回合开始时，按层数获得攻击等级提升与防御等级提升。",
+    "undefined": "-",
+    "flavor": "“因此要爱惜刀刃。准备完毕之后，我会再度回到蜘蛛巢。”"
+  },
+  "MugaRyoshuBalancedHeavenlyStar": {
+    "a": 0,
+    "id": "MugaRyoshuBalancedHeavenlyStar",
+    "name": "天杀星刀-阿赖耶识",
+    "desc": "- 攻击等级+6\n- 回合开始时，本场战斗中每击杀1名敌方单位，使自身获得3层攻击等级提升（最多6层）",
+    "summary": "回合开始时，按本场战斗的击杀数获得攻击等级提升。",
+    "undefined": "-",
+    "flavor": "“将天也斩杀。天、地、人，然后是我。此星，是为那个将一切存在与时间视为一体，并将其斩断之人升起之星。”"
+  },
+  "MugaRyoshuBalancedCutThread": {
+    "a": 0,
+    "id": "MugaRyoshuBalancedCutThread",
+    "name": "切丝",
+    "desc": "- 回合开始时，\n· 使自身增加1级流血强度并对自身施加1层流血\n· 受到(本效果层数/3)点斩击伤害\n- 受到攻击时，受到(本效果层数/5)点斩击伤害\n- 每层使对无我良秀造成的攻击伤害-1%；与其无我提供的减伤合计最多50%\n- 按下开战按钮时，若本回合装备了守备技能，层数-2（多个守备技能仍只算作1次）\n- 撤退后返场时清空\n- 最大值：15",
+    "summary": "降低对无我良秀造成的伤害，并在回合开始时获得流血。",
+    "undefined": "-",
+    "flavor": "“将一切都切断。你、我，以及此前和今后的一切。”\n\n“然后把阿赖耶带回来。”"
+  },
+  "MugaRyoshuGuardianResolve": {
+    "a": 0,
+    "id": "MugaRyoshuGuardianResolve",
+    "name": "守护他人的决意",
+    "desc": "- 上场时，清空自身最前面的1个混乱条（本场战斗仅1次）\n- 回合开始时，获得相当于存活友方单位数的[Protection]（最多3层）\n- 回合开始时，若自身为正理智人格，则恢复10点理智值\n- 命中时，使当前持有量最低的罪孽资源数量+1（全体友方每回合合计最多3次；并列最低时随机选择）",
+    "summary": "移除1个混乱条；每回合获得守护，正理智人格恢复理智；命中时获取罪孽资源",
+    "undefined": "-",
+    "flavor": ""
+  }
+}
