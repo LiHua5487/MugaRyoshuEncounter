@@ -135,6 +135,8 @@ function muga_round_start()
 
     if entered_phase_two then
         mugacleanse()
+        -- Include forced stagger on the core and every part, once on phase entry.
+        breakrecover("SelfCore+SelfParts", "force")
         local current = stack(SELF, SELFLESSNESS)
         if current < 50 then buff(SELF, SELFLESSNESS, 50 - current, 0, 0) end
         passivereveal(SELF, 880962002)
@@ -291,6 +293,20 @@ function muga_reduce_attack_damage()
 
     if final_damage ~= original_damage then setdmgtaken(final_damage) end
     if phase_pending then put(D_PHASE_PENDING, 1) end
+end
+
+-- Direct core absolute damage (including Nethersea) also reaches the native
+-- ChangeTakeDamage callback. This core passive only clamps HP damage; the
+-- part passive remains responsible for attack reduction, avoiding a second reduction.
+function muga_lock_phase_hp()
+    if data(D_PHASE) ~= 1 then return end
+    local damage = math.max(0, number(getdmg(), 0))
+    local hp = number(gethp(SELF, "current"), 0)
+    local allowed = math.max(0, hp - 900)
+    if damage > 0 and hp >= 900 and damage >= allowed and data(D_PHASE_PENDING) == 0 then
+        put(D_PHASE_PENDING, 1)
+    end
+    if damage > allowed then setdmgtaken(allowed) end
 end
 
 function muga_convert_sanity_damage()

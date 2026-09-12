@@ -24,6 +24,7 @@
       "requireIDList": [
         "Modular/TIMING:EncounterStart/LUA:MugaRyoshuBalanced/LUAMAIN:muga_abyss_start",
         "Modular/TIMING:BeforeChangeSanity/LUA:MugaRyoshuBalanced/LUAMAIN:muga_convert_sanity_damage",
+        "Modular/TIMING:ChangeTakeDamage/LUA:MugaRyoshuBalanced/LUAMAIN:muga_lock_phase_hp",
         "Modular/TIMING:Immortal/LUA:MugaRyoshuBalanced/LUAMAIN:muga_immortal",
         "Modular/TIMING:AfterChangeSanity/LUA:MugaRyoshuBalanced/LUAMAIN:muga_limit_sanity"
       ]
